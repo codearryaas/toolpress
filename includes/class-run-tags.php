@@ -37,18 +37,18 @@ class Run_Tags {
 								wp_enqueue_script( 'jquery' );
 							break;
 						case 'font-awesome':
-								// Enqueue Font Awesome from CDN.
-								wp_enqueue_script( 'font-awesome', 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js', array(), 'latest', true );
-								wp_enqueue_style( 'font-awesome', 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css', array(), 'latest' );
+								// Enqueue Font Awesome from local assets.
+								wp_enqueue_script( 'font-awesome', TOOLPRESS_PLUGIN_URL . 'assets/lib/fontawesome-free/js/all.min.js', array(), '7.1.0', true );
+								wp_enqueue_style( 'font-awesome', TOOLPRESS_PLUGIN_URL . 'assets/lib/fontawesome-free/css/all.min.css', array(), '7.1.0' );
 							break;
 						case 'twbs-icons':
-							// Enqueue Bootstrap Icons from CDN.
-							wp_enqueue_style( 'twbs-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css', array(), 'latest' );
+							// Enqueue Bootstrap Icons from local assets.
+							wp_enqueue_style( 'twbs-icons', TOOLPRESS_PLUGIN_URL . 'assets/lib/bootstrap-icons/bootstrap-icons.min.css', array(), '1.13.1' );
 							break;
 						case 'twbs':
-							// Enqueue Bootstrap CSS and JS from CDN.
-							wp_enqueue_style( 'bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css', array(), '5.3.0' );
-							wp_enqueue_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js', array(), 'latest', false );
+							// Enqueue Bootstrap CSS and JS from local assets.
+							wp_enqueue_style( 'bootstrap-css', TOOLPRESS_PLUGIN_URL . 'assets/lib/bootstrap/css/bootstrap.min.css', array(), '5.3.8' );
+							wp_enqueue_script( 'bootstrap-js', TOOLPRESS_PLUGIN_URL . 'assets/lib/bootstrap/js/bootstrap.bundle.min.js', array(), '5.3.8', false );
 							break;
 
 						case 'tawk-to-chat':

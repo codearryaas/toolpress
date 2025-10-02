@@ -1,6 +1,6 @@
 {
   "name": "toolpress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A WordPress plugin for advanced content management.",
   "main": "index.js",
   "devDependencies": {
@@ -9,6 +9,7 @@
     "grunt": "^1.6.1",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-replace": "^2.0.2",
     "grunt-zip": "^1.0.0"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "dev": "wp-scripts start --webpack-copy-php --config=webpack-config.js",
     "build": "wp-scripts build --webpack-copy-php --config=webpack-config.js",
     "bundle": "npm run build && bash ./.bash/bundle.sh",
+    "grunt": "grunt",
     "makepot": "./vendor/bin/wp i18n make-pot . --skip-audit --exclude=\".dev,.github,.wordpress-org,src,bundle,docs,dist,node_modules,vendor,wordpress\" --headers='{\"Last-Translator\":\"rakeshlawaju@gmail.com\"}' --file-comment=\"Copyright (c) $(date +'%Y') ToolPress. All Rights Reserved.\" languages/toolpress.pot",
     "plugin-zip": "wp-scripts plugin-zip"
   }

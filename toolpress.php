@@ -5,7 +5,7 @@
  * Author: Rakesh Lawaju
  * Author URI: https://racase.com.np
  * Plugin URI: https://racase.com.np/plugins/toolpress/
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: toolpress
  * Domain Path: /languages
  * Tested up to: 6.8

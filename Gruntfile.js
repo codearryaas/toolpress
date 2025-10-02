@@ -45,6 +45,44 @@ module.exports = function ( grunt ) {
 				],
 			},
 		},
+		replace: {
+			version_php: {
+				options: {
+					patterns: [
+						{
+							match: /Version:\s*([0-9.]+)/g,
+							replacement: 'Version: <%= pkg.version %>',
+						},
+					],
+				},
+				files: [
+					{
+						expand: true,
+						flatten: true,
+						src: [ 'toolpress.php' ],
+						overwrite: true,
+					},
+				],
+			},
+			version_readme: {
+				options: {
+					patterns: [
+						{
+							match: /(Stable tag:\s*)([0-9.]+)/g,
+							replacement: 'Stable tag: <%= pkg.version %>',
+						},
+					],
+				},
+				files: [
+					{
+						expand: true,
+						flatten: true,
+						src: [ 'readme.txt' ],
+						overwrite: true,
+					},
+				],
+			},
+		},
 		zip: {
 			'using-cwd': {
 				cwd: 'bundle/<%= pkg.version %>/',
@@ -60,8 +98,9 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 	grunt.loadNpmTasks( 'grunt-contrib-clean' );
 	grunt.loadNpmTasks( 'grunt-zip' );
+	grunt.loadNpmTasks( 'grunt-replace' );
 
 	// Default task(s).
-	grunt.registerTask( 'default', [ 'copy', 'zip' ] );
+	grunt.registerTask( 'default', [ 'replace', 'copy', 'zip' ] );
 	grunt.registerTask( 'cleanAll', [ 'clean' ] );
 };
