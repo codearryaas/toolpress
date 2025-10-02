@@ -1,0 +1,19 @@
+#toolpress-app {
+        .components-snackbar-list {
+            position: sticky;
+            bottom: 1rem;
+            left: 1rem;
+    }
+    .toolpress-header-card {
+            background: #344054;
+            color: #98a2b3;
+            h1 {
+                color: #fff;
+            }
+    }
+    .toolpress-settings-card {
+        .components-panel {
+            border: 0px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "toolpress",
+  "version": "1.0.0",
+  "description": "A WordPress plugin for advanced content management.",
+  "main": "index.js",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^22.17.0",
+    "@wordpress/scripts": "^30.24.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-zip": "^1.0.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.2",
+    "react-hook-form": "^7.63.0"
+  },
+  "scripts": {
+    "dev": "wp-scripts start --webpack-copy-php --config=webpack-config.js",
+    "build": "wp-scripts build --webpack-copy-php --config=webpack-config.js",
+    "bundle": "npm run build && bash ./.bash/bundle.sh",
+    "makepot": "./vendor/bin/wp i18n make-pot . --skip-audit --exclude=\".dev,.github,.wordpress-org,src,bundle,docs,dist,node_modules,vendor,wordpress\" --headers='{\"Last-Translator\":\"rakeshlawaju@gmail.com\"}' --file-comment=\"Copyright (c) $(date +'%Y') ToolPress. All Rights Reserved.\" languages/toolpress.pot",
+    "plugin-zip": "wp-scripts plugin-zip"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"editor.wordWrap": "on",
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "valeryanm.vscode-phpsab",
+	},
+}

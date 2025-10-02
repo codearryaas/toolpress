@@ -1,0 +1,148 @@
+# Copyright (c) 2025 ToolPress. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: ToolPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/toolpress\n"
+"Last-Translator: rakeshlawaju@gmail.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-02T08:49:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: toolpress\n"
+
+#. Plugin Name of the plugin
+#: toolpress.php
+#: toolpress.php:49
+#: toolpress.php:50
+#: build/admin/dashboard/index.js:1
+msgid "ToolPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: toolpress.php
+msgid "https://racase.com.np/plugins/toolpress/"
+msgstr ""
+
+#. Description of the plugin
+#: toolpress.php
+msgid "ToolPress lets you manage third-party tools into your WordPress site. Enable or disable integrations like Google Tag Manager, HubSpot, jQuery, Bootstrap, Font Awesome, Tawk.to chat, and more from a simple admin dashboard."
+msgstr ""
+
+#. Author of the plugin
+#: toolpress.php
+msgid "Rakesh Lawaju"
+msgstr ""
+
+#. Author URI of the plugin
+#: toolpress.php
+msgid "https://racase.com.np"
+msgstr ""
+
+#: toolpress.php:158
+#: toolpress.php:159
+msgid "Google Tag Manager"
+msgstr ""
+
+#: toolpress.php:180
+#: toolpress.php:181
+msgid "Google Tag"
+msgstr ""
+
+#: toolpress.php:201
+msgid "HubSpot Tracking"
+msgstr ""
+
+#: toolpress.php:202
+msgid "HubSpot Tracking Code"
+msgstr ""
+
+#: toolpress.php:222
+msgid "Tawk.to Chat"
+msgstr ""
+
+#: toolpress.php:223
+msgid "Tawk.to Live Chat"
+msgstr ""
+
+#: toolpress.php:247
+msgid "jQuery"
+msgstr ""
+
+#: toolpress.php:248
+msgid "jQuery Library"
+msgstr ""
+
+#: toolpress.php:262
+msgid "Bootstrap"
+msgstr ""
+
+#: toolpress.php:263
+msgid "Load Bootstrap Library"
+msgstr ""
+
+#: toolpress.php:277
+msgid "Bootstrap Icons"
+msgstr ""
+
+#: toolpress.php:278
+msgid "Load Bootstrap Icons Library"
+msgstr ""
+
+#: toolpress.php:292
+msgid "Font Awesome"
+msgstr ""
+
+#: toolpress.php:293
+msgid "Load Font Awesome Library"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "ID"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Property ID"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Tawk.to Property ID"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Widget ID"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Tawk.to Widget ID"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Error saving settings:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Welcome to the ToolPress admin dashboard!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Tools Settings"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Save"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "Enable"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+msgid "setting changed. Don't forget to save your changes!"
+msgstr ""
