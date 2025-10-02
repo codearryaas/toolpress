@@ -1,0 +1,109 @@
+# Copyright (c) 2025 ToolPress. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: ToolPress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/toolpress\n"
+"Last-Translator: rakeshlawaju@gmail.com\n"
+"Language-Team: Nepali\n"
+"Language: ne_NP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-02T12:40:58+00:00\n"
+"PO-Revision-Date: 2025-10-02T12:40:58+00:00\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: toolpress\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "ToolPress"
+msgstr "टुलप्रेस"
+
+msgid "https://racase.com.np/plugins/toolpress/"
+msgstr "https://racase.com.np/plugins/toolpress/"
+
+msgid "ToolPress lets you manage third-party tools into your WordPress site. Enable or disable integrations like Google Tag Manager, HubSpot, jQuery, Bootstrap, Font Awesome, Tawk.to chat, and more from a simple admin dashboard."
+msgstr "टुलप्रेसले तपाईंलाई आफ्नो वर्डप्रेस साइटमा थर्ड-पार्टी टुलहरू व्यवस्थापन गर्न दिन्छ। Google Tag Manager, HubSpot, jQuery, Bootstrap, Font Awesome, Tawk.to च्याट, र अन्य एकीकरणहरू सरल एडमिन ड्यासबोर्डबाट सक्षम वा असक्षम गर्नुहोस्।"
+
+msgid "Rakesh Lawaju"
+msgstr "राकेश लवाजु"
+
+msgid "https://racase.com.np"
+msgstr "https://racase.com.np"
+
+msgid "Google Tag Manager"
+msgstr "गुगल ट्याग म्यानेजर"
+
+msgid "Google Tag"
+msgstr "गुगल ट्याग"
+
+msgid "HubSpot Tracking"
+msgstr "हबस्पट ट्र्याकिङ"
+
+msgid "HubSpot Tracking Code"
+msgstr "हबस्पट ट्र्याकिङ कोड"
+
+msgid "Tawk.to Chat"
+msgstr "टक टु च्याट"
+
+msgid "Tawk.to Live Chat"
+msgstr "टक टु लाइभ च्याट"
+
+msgid "jQuery"
+msgstr "जेक्वेरी"
+
+msgid "jQuery Library"
+msgstr "जेक्वेरी लाइब्रेरी"
+
+msgid "Bootstrap"
+msgstr "बुटस्ट्र्याप"
+
+msgid "Load Bootstrap Library"
+msgstr "बुटस्ट्र्याप लाइब्रेरी लोड गर्नुहोस्"
+
+msgid "Bootstrap Icons"
+msgstr "बुटस्ट्र्याप आइकनहरू"
+
+msgid "Load Bootstrap Icons Library"
+msgstr "बुटस्ट्र्याप आइकन लाइब्रेरी लोड गर्नुहोस्"
+
+msgid "Font Awesome"
+msgstr "फन्ट अवसम"
+
+msgid "Load Font Awesome Library"
+msgstr "फन्ट अवसम लाइब्रेरी लोड गर्नुहोस्"
+
+msgid "ID"
+msgstr "आईडी"
+
+msgid "Property ID"
+msgstr "प्रोपर्टी आईडी"
+
+msgid "Tawk.to Property ID"
+msgstr "टक टु प्रोपर्टी आईडी"
+
+msgid "Widget ID"
+msgstr "विजेट आईडी"
+
+msgid "Tawk.to Widget ID"
+msgstr "टक टु विजेट आईडी"
+
+msgid "Error saving settings:"
+msgstr "सेटिङहरू बचत गर्दा त्रुटि:"
+
+msgid "Settings saved successfully!"
+msgstr "सेटिङहरू सफलतापूर्वक बचत गरियो!"
+
+msgid "Welcome to the ToolPress admin dashboard!"
+msgstr "टुलप्रेस एडमिन ड्यासबोर्डमा स्वागत छ!"
+
+msgid "Tools Settings"
+msgstr "टुल सेटिङहरू"
+
+msgid "Save"
+msgstr "बचत गर्नुहोस्"
+
+msgid "Enable"
+msgstr "सक्षम गर्नुहोस्"
+
+msgid "setting changed. Don't forget to save your changes!"
+msgstr "सेटिङ परिवर्तन भयो। आफ्नो परिवर्तनहरू बचत गर्न नबिर्सनुहोस्!"

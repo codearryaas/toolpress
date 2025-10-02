@@ -13,7 +13,9 @@ export default ( { formMethods: { control }, toolKey } ) => {
 	return (
 		<>
 			<HStack>
-				<label htmlFor="tawk-to-property-id">Property ID</label>
+				<label htmlFor="tawk-to-property-id">
+					{ __( 'Property ID', 'toolpress' ) }
+				</label>
 				<Controller
 					control={ control }
 					name={ `${ toolKey }.property_id` }
@@ -32,7 +34,9 @@ export default ( { formMethods: { control }, toolKey } ) => {
 				/>
 			</HStack>
 			<HStack>
-				<label htmlFor="tawk-to-widget-id">Widget ID</label>
+				<label htmlFor="tawk-to-widget-id">
+					{ __( 'Widget ID', 'toolpress' ) }
+				</label>
 				<Controller
 					control={ control }
 					name={ `${ toolKey }.widget_id` }

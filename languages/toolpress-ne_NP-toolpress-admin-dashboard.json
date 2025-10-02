@@ -1,0 +1,28 @@
+{
+    "translation-revision-date": "2025-10-02T12:40:58+00:00",
+    "generator": "WP-CLI 2.12.0",
+    "source": "build/admin/dashboard/index.js",
+    "domain": "toolpress",
+    "locale_data": {
+        "toolpress": {
+            "": {
+                "domain": "toolpress",
+                "lang": "ne_NP",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "ToolPress": ["टुलप्रेस"],
+            "ID": ["आईडी"],
+            "Property ID": ["प्रोपर्टी आईडी"],
+            "Tawk.to Property ID": ["टक टु प्रोपर्टी आईडी"],
+            "Widget ID": ["विजेट आईडी"],
+            "Tawk.to Widget ID": ["टक टु विजेट आईडी"],
+            "Error saving settings:": ["सेटिङहरू बचत गर्दा त्रुटि:"],
+            "Settings saved successfully!": ["सेटिङहरू सफलतापूर्वक बचत गरियो!"],
+            "Welcome to the ToolPress admin dashboard!": ["टुलप्रेस एडमिन ड्यासबोर्डमा स्वागत छ!"],
+            "Tools Settings": ["टुल सेटिङहरू"],
+            "Save": ["बचत गर्नुहोस्"],
+            "Enable": ["सक्षम गर्नुहोस्"],
+            "setting changed. Don't forget to save your changes!": ["सेटिङ परिवर्तन भयो। आफ्नो परिवर्तनहरू बचत गर्न नबिर्सनुहोस्!"]
+        }
+    }
+}

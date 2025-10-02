@@ -56,6 +56,94 @@ Description: Adds various tools to your site.
 - Add JS/React features in `src/` and build with npm/webpack.
 - Use Grunt for packaging and Composer for PHP dependencies.
 
+## Translation Generation Guide
+
+### File Types and Structure
+```
+languages/
+├── toolpress.pot              # Template file
+├── toolpress-{locale}.po     # Translation source
+├── toolpress-{locale}.mo     # Compiled translations
+└── toolpress-{locale}-toolpress-admin-dashboard.json  # JS translations
+```
+
+### PO File Generation
+When asked to generate a PO file:
+1. Create file in `languages/toolpress-{locale}.po`
+2. Use standard gettext header with WordPress metadata
+3. Include all strings from POT template
+4. Use UTF-8 encoding
+5. Set proper plural forms for target language
+
+Example template:
+```php
+# Copyright (c) [YEAR] ToolPress. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: ToolPress 1.0.1\n"
+"Language: [LOCALE]\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+```
+
+### MO File Generation
+When asked to generate MO file:
+1. Use msgfmt command
+2. Place in languages directory
+3. Maintain same base name as PO file
+
+Command pattern:
+```bash
+cd languages && msgfmt toolpress-{locale}.po -o toolpress-{locale}.mo
+```
+
+### JSON File Generation
+When asked to generate JSON file:
+1. Create file in `languages` directory
+2. Name format: `toolpress-{locale}-toolpress-admin-dashboard.json`
+3. Include only strings used in JavaScript
+4. Maintain WordPress JSON translation format
+
+Example structure:
+```json
+{
+    "translation-revision-date": "[DATE]",
+    "generator": "WP-CLI 2.12.0",
+    "domain": "toolpress",
+    "locale_data": {
+        "toolpress": {
+            "": {
+                "domain": "toolpress",
+                "lang": "[LOCALE]",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            [TRANSLATIONS]
+        }
+    }
+}
+```
+
+### Translation Guidelines
+1. **Brand Names**: Keep untranslated (Google, HubSpot, jQuery, etc.)
+2. **UI Elements**: Translate all (buttons, labels, messages)
+3. **Placeholders**: Maintain format specifiers
+4. **Error Messages**: Translate maintaining technical terms
+5. **JavaScript Strings**: Match PHP translations exactly
+
+### Testing Process
+1. Generate all three file types (PO, MO, JSON)
+2. Set WordPress to target language
+3. Check admin interface translations
+4. Verify JavaScript string translations
+5. Test error messages and notifications
+
+### Supported Languages
+- English (en_US) - Default
+- Hindi (hi_IN)
+- Nepali (ne_NP)
+
 ---
 
 If any section is unclear or missing, please provide feedback so this guide can be improved.

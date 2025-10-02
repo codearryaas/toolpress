@@ -22,5 +22,7 @@ rm ./bundle/$PACKAGE_NAME-$PACKAGE_VERSION.zip
 
 yarn makepot
 
+bash ./.bash/lang.sh
+
 # Bundle theme
 grunt
